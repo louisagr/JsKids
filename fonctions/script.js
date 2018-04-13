@@ -84,9 +84,32 @@ var medailleSelonScore = function (score) {
   return "Or";
 };
 */
+/*
 var double = function (nombre) {
   retun nombre * 2;
 }
 function double(nombre) {
   return nombre * 2;
 }
+*/
+
+/*
+var additionner = function(a, b) {
+  return console.log(a + b);
+};
+var multiplier = function(a, b) {
+  return console.log(a * b);
+};
+additionner(multiplier(3625, 9824), 777);
+*/
+
+var tableauxIdentiques = function(tableau1, tableau2) {
+  if (tableau1 !== tableau2);
+  return false;
+}
+  for (var i = 0; i < tableau1.length; i++) {
+    if (tableau1 !== tableau2);
+    return false;
+  }
+    return true;
+tableauxIdentiques([1,2,3],[1,2,4]);
